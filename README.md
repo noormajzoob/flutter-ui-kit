@@ -20,8 +20,8 @@ implement basic widget in flutter.
 	    thumbOnColor: context.colorScheme.tertiary
     );
     
-    
-https://user-images.githubusercontent.com/120308888/229360270-b441decb-2538-4b57-a0a4-8a53db20ad1d.mp4
+   
+https://user-images.githubusercontent.com/120308888/229360436-909041e5-8a8f-444b-b055-09011cb6c1f1.mp4
 
 
 # Radio button
@@ -41,5 +41,5 @@ https://user-images.githubusercontent.com/120308888/229360270-b441decb-2538-4b57
 	);
   
 
-https://user-images.githubusercontent.com/120308888/229360436-909041e5-8a8f-444b-b055-09011cb6c1f1.mp4
+https://user-images.githubusercontent.com/120308888/229360270-b441decb-2538-4b57-a0a4-8a53db20ad1d.mp4
 
