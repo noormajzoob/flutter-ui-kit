@@ -1,16 +1,45 @@
-# uikit
+# UI Kit
+implement basic widget in flutter.
 
-A new Flutter project.
+# Toggle button
 
-## Getting Started
+    ToggleButton(
+	    size: 30,
+	    thumbOffColor: Colors.black,
+	    onToggle: (state) {
+	    
+	    },
+	    
+	);
+	
+    ToggleButton(size: 30, 
+	    onToggle: (state) {},
+	    thumbOffColor: context.colorScheme.primary,
+	    backgroundOffColor: context.colorScheme.tertiaryContainer,
+	    backgroundOnColor: context.colorScheme.primaryContainer,
+	    thumbOnColor: context.colorScheme.tertiary
+    );
+    
+    
+https://user-images.githubusercontent.com/120308888/229360270-b441decb-2538-4b57-a0a4-8a53db20ad1d.mp4
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+# Radio button
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+    RadioButton(
+	    size: 30, 
+	    defaultState: RadioButtonState.checked, 
+	    onChecked: (state) {
+	});
+    RadioButton(
+	    size: 30, 
+	    defaultState: RadioButtonState.checked, 
+	    onChecked: (state) {},
+	    outlineBorderWidth: 2, 
+	    color: context.colorScheme.primary,
+	    duration: 300
+	);
+  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://user-images.githubusercontent.com/120308888/229360436-909041e5-8a8f-444b-b055-09011cb6c1f1.mp4
+
